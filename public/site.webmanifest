@@ -1,0 +1,16 @@
+{
+  "name": "ISP Azərbaycan",
+  "short_name": "ISP Az",
+  "description": "Azərbaycanın ən yaxşı internet provayderlərini müqayisə edin",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0ea5e9",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "any",
+      "type": "image/x-icon"
+    }
+  ]
+}
