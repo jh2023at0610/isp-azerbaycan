@@ -95,3 +95,10 @@ For questions about ISP selection in Azerbaijan, contact us through the website 
 ---
 
 **Built with ❤️ for Azerbaijan's internet users**
+
+## 🔄 Latest Update
+
+- ✅ Removed all unused components and dependencies
+- ✅ Simplified to Azerbaijani-only content
+- ✅ Clean, minimal Next.js project
+- ✅ Ready for deployment
