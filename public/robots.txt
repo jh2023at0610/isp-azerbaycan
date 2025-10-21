@@ -1,15 +1,9 @@
+# *
 User-agent: *
 Allow: /
 
+# Host
+Host: https://yourdomain.az
+
 # Sitemaps
 Sitemap: https://yourdomain.az/sitemap.xml
-
-# Crawl-delay
-Crawl-delay: 1
-
-# Disallow admin areas
-Disallow: /admin/
-Disallow: /api/
-
-# Allow all other content
-Allow: /
