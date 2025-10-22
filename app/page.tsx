@@ -163,6 +163,66 @@ export default function RootPage() {
                   </td>
                   <td className="px-8 py-6 text-gray-600 dark:text-gray-300">Bakı və ətraf rayonlar</td>
                 </tr>
+                <tr className="hover:bg-gradient-to-r hover:from-blue-50 hover:to-indigo-50 dark:hover:from-gray-700 dark:hover:to-gray-600 transition-all duration-300 group">
+                  <td className="px-8 py-6 font-bold text-gray-900 dark:text-gray-100 text-lg">AzEuroTel</td>
+                  <td className="px-8 py-6 text-gray-600 dark:text-gray-300 font-medium">200 Mbps</td>
+                  <td className="px-8 py-6 text-gray-600 dark:text-gray-300 font-medium">35 AZN/ay</td>
+                  <td className="px-8 py-6">
+                    <div className="flex items-center">
+                      <span className="text-yellow-400 text-xl mr-3">★★★★★</span>
+                      <span className="text-gray-600 dark:text-gray-300 font-semibold">4.6</span>
+                    </div>
+                  </td>
+                  <td className="px-8 py-6 text-gray-600 dark:text-gray-300">Bakı, Gəncə, Sumqayıt</td>
+                </tr>
+                <tr className="hover:bg-gradient-to-r hover:from-blue-50 hover:to-indigo-50 dark:hover:from-gray-700 dark:hover:to-gray-600 transition-all duration-300 group">
+                  <td className="px-8 py-6 font-bold text-gray-900 dark:text-gray-100 text-lg">Delta Telecom</td>
+                  <td className="px-8 py-6 text-gray-600 dark:text-gray-300 font-medium">100 Mbps</td>
+                  <td className="px-8 py-6 text-gray-600 dark:text-gray-300 font-medium">26 AZN/ay</td>
+                  <td className="px-8 py-6">
+                    <div className="flex items-center">
+                      <span className="text-yellow-400 text-xl mr-3">★★★★☆</span>
+                      <span className="text-gray-600 dark:text-gray-300 font-semibold">4.0</span>
+                    </div>
+                  </td>
+                  <td className="px-8 py-6 text-gray-600 dark:text-gray-300">Bakı və Abşeron rayonu</td>
+                </tr>
+                <tr className="hover:bg-gradient-to-r hover:from-blue-50 hover:to-indigo-50 dark:hover:from-gray-700 dark:hover:to-gray-600 transition-all duration-300 group">
+                  <td className="px-8 py-6 font-bold text-gray-900 dark:text-gray-100 text-lg">Ultel</td>
+                  <td className="px-8 py-6 text-gray-600 dark:text-gray-300 font-medium">60 Mbps</td>
+                  <td className="px-8 py-6 text-gray-600 dark:text-gray-300 font-medium">20 AZN/ay</td>
+                  <td className="px-8 py-6">
+                    <div className="flex items-center">
+                      <span className="text-yellow-400 text-xl mr-3">★★★☆☆</span>
+                      <span className="text-gray-600 dark:text-gray-300 font-semibold">3.8</span>
+                    </div>
+                  </td>
+                  <td className="px-8 py-6 text-gray-600 dark:text-gray-300">Bakı şəhəri</td>
+                </tr>
+                <tr className="hover:bg-gradient-to-r hover:from-blue-50 hover:to-indigo-50 dark:hover:from-gray-700 dark:hover:to-gray-600 transition-all duration-300 group">
+                  <td className="px-8 py-6 font-bold text-gray-900 dark:text-gray-100 text-lg">Naxtel</td>
+                  <td className="px-8 py-6 text-gray-600 dark:text-gray-300 font-medium">75 Mbps</td>
+                  <td className="px-8 py-6 text-gray-600 dark:text-gray-300 font-medium">21 AZN/ay</td>
+                  <td className="px-8 py-6">
+                    <div className="flex items-center">
+                      <span className="text-yellow-400 text-xl mr-3">★★★☆☆</span>
+                      <span className="text-gray-600 dark:text-gray-300 font-semibold">3.9</span>
+                    </div>
+                  </td>
+                  <td className="px-8 py-6 text-gray-600 dark:text-gray-300">Bakı və ətraf rayonlar</td>
+                </tr>
+                <tr className="hover:bg-gradient-to-r hover:from-blue-50 hover:to-indigo-50 dark:hover:from-gray-700 dark:hover:to-gray-600 transition-all duration-300 group">
+                  <td className="px-8 py-6 font-bold text-gray-900 dark:text-gray-100 text-lg">SuperOnline</td>
+                  <td className="px-8 py-6 text-gray-600 dark:text-gray-300 font-medium">250 Mbps</td>
+                  <td className="px-8 py-6 text-gray-600 dark:text-gray-300 font-medium">40 AZN/ay</td>
+                  <td className="px-8 py-6">
+                    <div className="flex items-center">
+                      <span className="text-yellow-400 text-xl mr-3">★★★★★</span>
+                      <span className="text-gray-600 dark:text-gray-300 font-semibold">4.5</span>
+                    </div>
+                  </td>
+                  <td className="px-8 py-6 text-gray-600 dark:text-gray-300">Bakı, Sumqayıt</td>
+                </tr>
                 </tbody>
               </table>
             </div>
