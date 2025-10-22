@@ -88,6 +88,7 @@ export default function RootPage() {
                   <th className="px-8 py-6 text-left">Qiymət</th>
                   <th className="px-8 py-6 text-left">Reytinq</th>
                   <th className="px-8 py-6 text-left">Örtük</th>
+                  <th className="px-8 py-6 text-left">Sayt</th>
                 </tr>
               </thead>
               <tbody className="divide-y divide-gray-200 dark:divide-gray-600">
@@ -102,6 +103,14 @@ export default function RootPage() {
                     </div>
                   </td>
                   <td className="px-8 py-6 text-gray-600 dark:text-gray-300">Bakı və ətraf rayonlar</td>
+                  <td className="px-8 py-6">
+                    <a href="https://www.katv.az" target="_blank" rel="noopener noreferrer" className="inline-flex items-center text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 font-medium transition-colors">
+                      Sayta keç
+                      <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                      </svg>
+                    </a>
+                  </td>
                 </tr>
                 <tr className="hover:bg-gradient-to-r hover:from-blue-50 hover:to-indigo-50 dark:hover:from-gray-700 dark:hover:to-gray-600 transition-all duration-300 group">
                   <td className="px-8 py-6 font-bold text-gray-900 dark:text-gray-100 text-lg">BirLink</td>
@@ -114,6 +123,14 @@ export default function RootPage() {
                     </div>
                   </td>
                   <td className="px-8 py-6 text-gray-600 dark:text-gray-300">Bakı, Sumqayıt, Gəncə</td>
+                  <td className="px-8 py-6">
+                    <a href="https://www.birlink.az" target="_blank" rel="noopener noreferrer" className="inline-flex items-center text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 font-medium transition-colors">
+                      Sayta keç
+                      <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                      </svg>
+                    </a>
+                  </td>
                 </tr>
                 <tr className="hover:bg-gradient-to-r hover:from-blue-50 hover:to-indigo-50 dark:hover:from-gray-700 dark:hover:to-gray-600 transition-all duration-300 group">
                   <td className="px-8 py-6 font-bold text-gray-900 dark:text-gray-100 text-lg">CityNet</td>
@@ -126,6 +143,14 @@ export default function RootPage() {
                     </div>
                   </td>
                   <td className="px-8 py-6 text-gray-600 dark:text-gray-300">Bakı və ətraf şəhərlər</td>
+                  <td className="px-8 py-6">
+                    <a href="https://www.citynet.az" target="_blank" rel="noopener noreferrer" className="inline-flex items-center text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 font-medium transition-colors">
+                      Sayta keç
+                      <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                      </svg>
+                    </a>
+                  </td>
                 </tr>
                 <tr className="hover:bg-gradient-to-r hover:from-blue-50 hover:to-indigo-50 dark:hover:from-gray-700 dark:hover:to-gray-600 transition-all duration-300 group">
                   <td className="px-8 py-6 font-bold text-gray-900 dark:text-gray-100 text-lg">AzTelekom</td>
@@ -138,6 +163,14 @@ export default function RootPage() {
                     </div>
                   </td>
                   <td className="px-8 py-6 text-gray-600 dark:text-gray-300">Bütün Azərbaycan</td>
+                  <td className="px-8 py-6">
+                    <a href="https://www.aztelekom.az" target="_blank" rel="noopener noreferrer" className="inline-flex items-center text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 font-medium transition-colors">
+                      Sayta keç
+                      <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                      </svg>
+                    </a>
+                  </td>
                 </tr>
                 <tr className="hover:bg-gradient-to-r hover:from-blue-50 hover:to-indigo-50 dark:hover:from-gray-700 dark:hover:to-gray-600 transition-all duration-300 group">
                   <td className="px-8 py-6 font-bold text-gray-900 dark:text-gray-100 text-lg">AzerOnline</td>
@@ -150,6 +183,14 @@ export default function RootPage() {
                     </div>
                   </td>
                   <td className="px-8 py-6 text-gray-600 dark:text-gray-300">Bakı və regionlar</td>
+                  <td className="px-8 py-6">
+                    <a href="https://www.azeronline.com" target="_blank" rel="noopener noreferrer" className="inline-flex items-center text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 font-medium transition-colors">
+                      Sayta keç
+                      <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                      </svg>
+                    </a>
+                  </td>
                 </tr>
                 <tr className="hover:bg-gradient-to-r hover:from-blue-50 hover:to-indigo-50 dark:hover:from-gray-700 dark:hover:to-gray-600 transition-all duration-300 group">
                   <td className="px-8 py-6 font-bold text-gray-900 dark:text-gray-100 text-lg">Connect</td>
@@ -162,6 +203,14 @@ export default function RootPage() {
                     </div>
                   </td>
                   <td className="px-8 py-6 text-gray-600 dark:text-gray-300">Bakı və ətraf rayonlar</td>
+                  <td className="px-8 py-6">
+                    <a href="https://www.connect.az" target="_blank" rel="noopener noreferrer" className="inline-flex items-center text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 font-medium transition-colors">
+                      Sayta keç
+                      <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                      </svg>
+                    </a>
+                  </td>
                 </tr>
                 <tr className="hover:bg-gradient-to-r hover:from-blue-50 hover:to-indigo-50 dark:hover:from-gray-700 dark:hover:to-gray-600 transition-all duration-300 group">
                   <td className="px-8 py-6 font-bold text-gray-900 dark:text-gray-100 text-lg">AzEuroTel</td>
@@ -174,6 +223,14 @@ export default function RootPage() {
                     </div>
                   </td>
                   <td className="px-8 py-6 text-gray-600 dark:text-gray-300">Bakı, Gəncə, Sumqayıt</td>
+                  <td className="px-8 py-6">
+                    <a href="https://www.azeurotel.az" target="_blank" rel="noopener noreferrer" className="inline-flex items-center text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 font-medium transition-colors">
+                      Sayta keç
+                      <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                      </svg>
+                    </a>
+                  </td>
                 </tr>
                 <tr className="hover:bg-gradient-to-r hover:from-blue-50 hover:to-indigo-50 dark:hover:from-gray-700 dark:hover:to-gray-600 transition-all duration-300 group">
                   <td className="px-8 py-6 font-bold text-gray-900 dark:text-gray-100 text-lg">Delta Telecom</td>
@@ -186,6 +243,14 @@ export default function RootPage() {
                     </div>
                   </td>
                   <td className="px-8 py-6 text-gray-600 dark:text-gray-300">Bakı və Abşeron rayonu</td>
+                  <td className="px-8 py-6">
+                    <a href="https://www.delta.az" target="_blank" rel="noopener noreferrer" className="inline-flex items-center text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 font-medium transition-colors">
+                      Sayta keç
+                      <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                      </svg>
+                    </a>
+                  </td>
                 </tr>
                 <tr className="hover:bg-gradient-to-r hover:from-blue-50 hover:to-indigo-50 dark:hover:from-gray-700 dark:hover:to-gray-600 transition-all duration-300 group">
                   <td className="px-8 py-6 font-bold text-gray-900 dark:text-gray-100 text-lg">Ultel</td>
@@ -198,6 +263,14 @@ export default function RootPage() {
                     </div>
                   </td>
                   <td className="px-8 py-6 text-gray-600 dark:text-gray-300">Bakı şəhəri</td>
+                  <td className="px-8 py-6">
+                    <a href="https://www.ultel.az" target="_blank" rel="noopener noreferrer" className="inline-flex items-center text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 font-medium transition-colors">
+                      Sayta keç
+                      <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                      </svg>
+                    </a>
+                  </td>
                 </tr>
                 <tr className="hover:bg-gradient-to-r hover:from-blue-50 hover:to-indigo-50 dark:hover:from-gray-700 dark:hover:to-gray-600 transition-all duration-300 group">
                   <td className="px-8 py-6 font-bold text-gray-900 dark:text-gray-100 text-lg">Naxtel</td>
@@ -210,6 +283,14 @@ export default function RootPage() {
                     </div>
                   </td>
                   <td className="px-8 py-6 text-gray-600 dark:text-gray-300">Bakı və ətraf rayonlar</td>
+                  <td className="px-8 py-6">
+                    <a href="https://www.naxtel.az" target="_blank" rel="noopener noreferrer" className="inline-flex items-center text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 font-medium transition-colors">
+                      Sayta keç
+                      <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                      </svg>
+                    </a>
+                  </td>
                 </tr>
                 <tr className="hover:bg-gradient-to-r hover:from-blue-50 hover:to-indigo-50 dark:hover:from-gray-700 dark:hover:to-gray-600 transition-all duration-300 group">
                   <td className="px-8 py-6 font-bold text-gray-900 dark:text-gray-100 text-lg">SuperOnline</td>
@@ -222,6 +303,14 @@ export default function RootPage() {
                     </div>
                   </td>
                   <td className="px-8 py-6 text-gray-600 dark:text-gray-300">Bakı, Sumqayıt</td>
+                  <td className="px-8 py-6">
+                    <a href="https://www.superonline.az" target="_blank" rel="noopener noreferrer" className="inline-flex items-center text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 font-medium transition-colors">
+                      Sayta keç
+                      <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                      </svg>
+                    </a>
+                  </td>
                 </tr>
                 </tbody>
               </table>
