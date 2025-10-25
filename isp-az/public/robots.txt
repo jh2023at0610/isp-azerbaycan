@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://yourdomain.az
+
+# Sitemaps
+Sitemap: https://yourdomain.az/sitemap.xml
