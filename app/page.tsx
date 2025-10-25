@@ -401,8 +401,9 @@ export default function RootPage() {
           </div>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {/* Featured Article */}
-            <div className="lg:col-span-2">
+            {/* Featured Articles */}
+            <div className="lg:col-span-2 space-y-6">
+              {/* First Article */}
               <article className="bg-white dark:bg-gray-800 rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300">
                 <div className="p-8">
                   <div className="flex items-center justify-between mb-4">
@@ -426,6 +427,38 @@ export default function RootPage() {
                     <span className="text-sm text-gray-500 dark:text-gray-400">8 dəqiqə oxumaq</span>
                     <a 
                       href="/blog/en-yaxsi-internet-provayderi-nece-secmeli"
+                      className="text-blue-600 dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-300 font-medium text-sm flex items-center"
+                    >
+                      Oxumağa davam et →
+                    </a>
+                  </div>
+                </div>
+              </article>
+
+              {/* Second Article */}
+              <article className="bg-white dark:bg-gray-800 rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300">
+                <div className="p-8">
+                  <div className="flex items-center justify-between mb-4">
+                    <span className="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-200">
+                      Texnologiya
+                    </span>
+                    <time className="text-sm text-gray-500 dark:text-gray-400">25 oktyabr 2025</time>
+                  </div>
+                  
+                  <h3 className="text-2xl font-bold text-gray-900 dark:text-gray-100 mb-4">
+                    <a href="/blog/en-yaxsi-wifi-router-nece-secmeli" className="hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
+                      Ən yaxşı Wi-Fi router necə seçməli? (2025 Bələdçi)
+                    </a>
+                  </h3>
+                  
+                  <p className="text-gray-600 dark:text-gray-300 mb-6 leading-relaxed">
+                    Wi-Fi standartları, AX/AC sürətləri, Dual-Band, anten, Gigabit LAN/WAN, Mesh, MU-MIMO, QoS və WPA3 təhlükəsizliyi haqqında tam bələdçi.
+                  </p>
+                  
+                  <div className="flex items-center justify-between">
+                    <span className="text-sm text-gray-500 dark:text-gray-400">10 dəqiqə oxumaq</span>
+                    <a 
+                      href="/blog/en-yaxsi-wifi-router-nece-secmeli"
                       className="text-blue-600 dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-300 font-medium text-sm flex items-center"
                     >
                       Oxumağa davam et →

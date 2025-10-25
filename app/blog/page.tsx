@@ -21,6 +21,14 @@ const articles = [
     readTime: '8 dəqiqə',
     category: 'Bələdçi',
   },
+  {
+    slug: 'en-yaxsi-wifi-router-nece-secmeli',
+    title: 'Ən yaxşı Wi-Fi router necə seçməli? (2025 Bələdçi)',
+    description: 'Wi-Fi standartları, AX/AC sürətləri, Dual-Band, anten, Gigabit LAN/WAN, Mesh, MU-MIMO, QoS və WPA3 təhlükəsizliyi haqqında tam bələdçi.',
+    date: '2025-10-25',
+    readTime: '10 dəqiqə',
+    category: 'Texnologiya',
+  },
 ]
 
 export default function BlogPage() {
