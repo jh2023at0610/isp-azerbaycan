@@ -52,7 +52,15 @@ export default function RootPage() {
       {/* Header */}
       <header className="bg-blue-600 text-white py-6">
         <div className="max-w-6xl mx-auto px-4 md:px-8">
-          <h1 className="text-3xl font-extrabold tracking-tight">ISP Azərbaycan</h1>
+          <div className="flex items-center justify-between">
+            <h1 className="text-3xl font-extrabold tracking-tight">ISP Azərbaycan</h1>
+            <nav className="hidden md:flex items-center space-x-6">
+              <a href="/" className="hover:text-blue-200 transition-colors">Ana səhifə</a>
+              <a href="/blog" className="hover:text-blue-200 transition-colors">Bloq</a>
+              <a href="#mukayise" className="hover:text-blue-200 transition-colors">Müqayisə</a>
+              <a href="#faq" className="hover:text-blue-200 transition-colors">FAQ</a>
+            </nav>
+          </div>
         </div>
       </header>
 
@@ -376,6 +384,72 @@ export default function RootPage() {
             <button className="btn btn-primary text-white px-12 py-4 text-lg font-semibold rounded-2xl shadow-xl hover:scale-105 transition-all duration-300">
               Rəy əlavə et
             </button>
+          </div>
+        </div>
+      </section>
+
+      {/* Blog Section */}
+      <section className="py-20 bg-gradient-to-b from-white to-gray-50 dark:from-dark dark:to-gray-800">
+        <div className="max-w-6xl mx-auto px-4 md:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl md:text-4xl font-bold mb-6 text-gray-800 dark:text-gray-100">
+              Bloq və Bələdçilər
+            </h2>
+            <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
+              Internet provayderləri haqqında ətraflı məqalələr, bələdçilər və məsləhətlər
+            </p>
+          </div>
+          
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {/* Featured Article */}
+            <div className="lg:col-span-2">
+              <article className="bg-white dark:bg-gray-800 rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300">
+                <div className="p-8">
+                  <div className="flex items-center justify-between mb-4">
+                    <span className="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-200">
+                      Bələdçi
+                    </span>
+                    <time className="text-sm text-gray-500 dark:text-gray-400">25 oktyabr 2025</time>
+                  </div>
+                  
+                  <h3 className="text-2xl font-bold text-gray-900 dark:text-gray-100 mb-4">
+                    <a href="/blog/en-yaxsi-internet-provayderi-nece-secmeli" className="hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
+                      Ən yaxşı internet provayderi necə seçməli? (2025 Bələdçi)
+                    </a>
+                  </h3>
+                  
+                  <p className="text-gray-600 dark:text-gray-300 mb-6 leading-relaxed">
+                    Azərbaycanda ən yaxşı internet provayderini seçmək üçün tam bələdçi: sürət, sabitlik, texnologiya, qiymət və müqayisə meyarları.
+                  </p>
+                  
+                  <div className="flex items-center justify-between">
+                    <span className="text-sm text-gray-500 dark:text-gray-400">8 dəqiqə oxumaq</span>
+                    <a 
+                      href="/blog/en-yaxsi-internet-provayderi-nece-secmeli"
+                      className="text-blue-600 dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-300 font-medium text-sm flex items-center"
+                    >
+                      Oxumağa davam et →
+                    </a>
+                  </div>
+                </div>
+              </article>
+            </div>
+            
+            {/* Blog CTA */}
+            <div className="lg:col-span-1">
+              <div className="bg-gradient-to-br from-blue-600 to-blue-700 rounded-2xl p-8 text-white h-full flex flex-col justify-center">
+                <h3 className="text-2xl font-bold mb-4">Daha çox məqalə</h3>
+                <p className="text-blue-100 mb-6">
+                  Internet provayderləri haqqında daha çox məqalə və bələdçi üçün bloqumuzu ziyarət edin.
+                </p>
+                <a 
+                  href="/blog"
+                  className="inline-flex items-center justify-center px-6 py-3 bg-white text-blue-600 rounded-lg font-medium hover:bg-gray-50 transition-colors"
+                >
+                  Bütün məqalələrə bax
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </section>
